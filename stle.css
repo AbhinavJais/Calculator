@@ -24,7 +24,7 @@
     height: 60px;
     border-radius: 10px;
     background: transparent;
-    box-shadow:5px 5px 15px rgba(0 , 0, 0 , 0.2) ;
+    box-shadow:5px 5px 10px rgba(0 , 0, 0 , 0.5) ;
     font-size: 20px;
     margin: 10px;
     cursor: pointer;
@@ -37,7 +37,7 @@
     height: 60px;
     border-radius: 10px;
     background: transparent;
-    box-shadow:5px 5px 15px rgba(0 , 0, 0 , 0.2) ;
+    box-shadow:5px 5px 10px rgba(0 , 0, 0 , 0.5) ;
     font-size: 20px;
     margin: 10px;
     cursor: pointer;
@@ -57,4 +57,10 @@
 }
 .row .equal{
     width: 145px;
+}
+.container{
+    box-shadow: 10px 10px 3px rgba(0 , 0, 0 , 0.2);
+}
+#btn{
+    color: rgb(67, 192, 150);
 }
