@@ -52,7 +52,7 @@
 .display input{
     text-align: right;
     flex: 1;
-    font-size: 45px;
+    font-size: 30px;
 
 }
 .row .equal{
@@ -64,3 +64,12 @@
 #btn{
     color: rgb(67, 192, 150);
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* input[type=number]{
+    -moz-appearance: textfield;
+} */
