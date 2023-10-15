@@ -10,7 +10,7 @@
     <section class="calculator">
       <div class="container">
         <div class="display">
-            <input type="text" inputmode="numeric" name="display">
+            <input type="text" onkeypress="return onlyNumberKey(event)" name="display">
         </div>
         <div class="row">
             <button class="button" id="btn">AC</button>
