@@ -11,7 +11,7 @@ function onlyNumberKey(evt) {
         return true;
     }
 }
-
+ 
 Array.from(buttons).forEach((button)=>{
     button.addEventListener('click', (e)=>{
         if(e.target.innerHTML === '='){
